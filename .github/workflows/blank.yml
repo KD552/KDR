@@ -37,6 +37,8 @@ jobs:
           mkdir -p data
           touch data/1.txt
           echo '23123'>1.txt
+          git config --global user.email "lqcqgnwxke@mikios.shop"
+          git config --global user.name "lqcqgnwxke"
           git add .
           git commit -m '23123'
           git pull
