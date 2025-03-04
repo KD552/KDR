@@ -34,6 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          mkdir -p data
           touch data/1.txt
           echo '23123'>1.txt
           git add .
